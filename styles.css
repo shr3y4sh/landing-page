@@ -1,0 +1,143 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #191A19;
+    color: #D8E9A8;
+    font-family: Istok;
+    font-size: 1.3rem;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #D8E9A8;
+}
+
+.header {
+    background: #1E5128;
+    /* border-radius: 20px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.header .title {
+    margin-left: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    /* flex-shrink: 1; */
+    min-width: 200px;
+}
+
+.panel {
+    background-color: #1E5128;
+    display: flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    gap: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: white;
+    font-size: 3rem;
+}
+
+.website.title {
+    font-size: 2rem;
+    /* color: white; */
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.placeholder {
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 400px
+}
+
+button.signup {
+    background-color: #4E9F3D;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.information .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    gap: 80px;
+}
+
+.images img {
+    border: 2px solid #4E9F3D;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.images p {
+    padding: 0px;
+    margin-top: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.images div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
